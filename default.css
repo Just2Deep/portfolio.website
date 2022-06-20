@@ -407,3 +407,8 @@ h6{font-size: 16px;}
     }
 }
 
+
+img.make-it-fit {
+    max-width: 99%;
+    max-height: 99%;
+}
