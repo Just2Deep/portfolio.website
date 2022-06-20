@@ -169,19 +169,21 @@
         <div class="main-container">
             <h3 style="text-align: center;">Get In Touch</h3>
 
-            <form id="contact-form">
+            <form id="contact-form" action="https://formsubmit.co/deepakrajsrs@email.com" method="POST">
                 <label>Name</label>
-                <input class="input-field" type="text" name="name">
+                <input class="input-field" type="text" name="name" required>
 
                 <label>Subject</label>
                 <input class="input-field" type="text" name="subject">
 
                 <label>Email</label>
-                <input class="input-field" type="email" name="email">
+                <input class="input-field" type="email" name="email" required>
 
                 <label>Message</label>
                 <textarea class="input-field" name="message"></textarea>
 
+                <input type="hidden" name="_next" value="https://thankyou.html">
+                <input type="hidden" name="_subject" value="New submission!">
 
                 <input id="submit-btn" type="submit" value="Send">
             </form>
