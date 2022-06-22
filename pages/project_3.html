@@ -24,7 +24,25 @@
     </div>
 
     <div class="main-container">
-        <h3>Hey there! the project isn't finished yet,so stay tuned</h3>
+        <h3>Hey There! This project is about movies and gross revenues</h3>
+    </div>
+    <div class="main-container">
+        <p>We are going to analyse the about 4 decades of data for highest grossing movies.</p>
+        <p>Before finding the correlations we have to clean the data. which can also be done in python.
+        First we remove any duplicate rows present in the data, convert the floating point budget field to bigint. Since there are two columns which represent the year, we are going to a create a new column with name YearCorrect to avoid the confusion of years.
+        If we sort the rows by highest grossing we can see a lot of familiar names like Avatar and Titanic.
+        </p>
+        <p>Next, we use matplotlib to create a scatter plot for budget and gross revenue to check if there is any corrrelation. we also use seaborn to create a regression plot to identify the trendline.</p>
+        <p>Now, we plot the correlation matrix for just numeric features based.
+            Based on the output we could see a strong correlation with respect to budget and gross revenue and also an unexpected correlation between gross revenue and votes.
+        </p>
+        After this we try to visualise the data for all data types by numerizing the data using cat.codes and then see if there is any other factors affecting the gross revenue.
+        </p>
+        <p>After visualizing the final correlation matrix, we can say that the number of votes received for a movie and large budget are highly correlated with gross revenue earned by that movie.</p>
+
+    </div>
+    <div class="main-container">
+        <h5>Code link<a href="https://github.com/Just2Deep/MovieCorrelation_Python/blob/main/Movie%20Correlation%20Project.ipynb" > here</a></h5>
     </div>
 </body>
 </html>
